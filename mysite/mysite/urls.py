@@ -18,7 +18,7 @@ from django.contrib import admin
 from django.urls import path
 from django.http import HttpResponse
 def home(request):
-    return HttpResponse("It works!")
+    return HttpResponse("<H1 style='color: red; font-size: 24px;'>GIMMMIE YOUR MONEY!</H1>")
 
 urlpatterns = [
     path("", home, name="home"),
